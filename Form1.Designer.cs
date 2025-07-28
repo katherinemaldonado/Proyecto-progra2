@@ -154,7 +154,7 @@
             cmbUbicacion.HoverColor = Color.FromArgb(35, 168, 109);
             cmbUbicacion.HoverFontColor = Color.White;
             cmbUbicacion.ItemHeight = 18;
-            cmbUbicacion.Items.AddRange(new object[] { "Laptop", "Impresora", "Mouse", "Teclado" });
+            cmbUbicacion.Items.AddRange(new object[] { "Oficina", "Laboratorio", "Departamento" });
             cmbUbicacion.Location = new Point(78, 111);
             cmbUbicacion.Margin = new Padding(3, 2, 3, 2);
             cmbUbicacion.Name = "cmbUbicacion";
@@ -173,7 +173,7 @@
             cmbEstado.HoverColor = Color.FromArgb(35, 168, 109);
             cmbEstado.HoverFontColor = Color.White;
             cmbEstado.ItemHeight = 18;
-            cmbEstado.Items.AddRange(new object[] { "Laptop", "Impresora", "Mouse", "Teclado" });
+            cmbEstado.Items.AddRange(new object[] { "Activo", "Reparacion", "Dado de baja" });
             cmbEstado.Location = new Point(78, 149);
             cmbEstado.Margin = new Padding(3, 2, 3, 2);
             cmbEstado.Name = "cmbEstado";
