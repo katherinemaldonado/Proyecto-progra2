@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Proyecto_progra2
 {
-   public class Manteniemientos
+   public class Mantenimientos
     {
         public string Tipo { get; set; } // Preventivo o Correctivo
         public DateTime Fecha { get; set; }

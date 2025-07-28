@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Proyecto_progra2
 {
-    class Equipo
+    public class Equipo
     {
         public string Codigo { get; set; }
         public string Tipo { get; set; }
@@ -16,7 +16,7 @@ namespace Proyecto_progra2
         public string Ubicacion { get; set; }
         public string Estado { get; set; }
 
-        public List<Mantenimiento> Mantenimientos { get; set; } = new List<Mantenimiento>();
+        public List<Mantenimientos> Mantenimientos { get; set; } = new List<Mantenimientos>();
     }
 }
 

@@ -15,7 +15,7 @@ namespace Proyecto_progra2
     {
         private Equipo equipoActual;
 
-        public frmMantenimiento(Equipo equipo)
+        public frmMantenimientos(Equipo equipo)
         {
             InitializeComponent();
             equipoActual = equipo;
